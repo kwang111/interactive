@@ -15,6 +15,13 @@
     padding: 20px;
 }
 
+.comparison{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .heading{
     background-color: #1C4855;
     padding: 20px;
