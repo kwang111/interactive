@@ -14,7 +14,11 @@
     justify-content: space-around;
     padding: 20px;
 }
-
+.video{
+  padding: 20px;
+  width: 640; 
+  height: 360;
+}
 .comparison{
   display: flex;
   flex-direction: row;
@@ -28,9 +32,9 @@
     color: white;
 }
   .photo-div {
-    max-width: 500px;
+    max-width: 400px;
     align-content: flex-start;
-    margin: auto;
+    margin: 5px;
   }
 
   img {
@@ -163,6 +167,11 @@ body {
     }
     .flex-row{
         padding: 5px;
+    }
+    .video{
+      padding: 40px;
+      width: 160px;
+      height: 120px;
     }
 }
 /* Put your style information here! */
